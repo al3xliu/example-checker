@@ -14,6 +14,4 @@ import org.checkerframework.framework.qual.SubtypeOf;
 @SubtypeOf({ExampleEncodingUnknown.class})
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.TYPE_USE, ElementType.TYPE_PARAMETER})
-public @interface ExampleEncoding {
-    String[] value() default {};
-}
+public @interface ExampleEncoding {}
